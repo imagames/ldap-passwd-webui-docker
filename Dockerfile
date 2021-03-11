@@ -1,5 +1,5 @@
 FROM python:3.9-slim
-MAINTAINER Imagames (info@imagames.com)
+LABEL maintainer="Imagames (info@imagames.com)"
 RUN apt update
 RUN apt install -y git
 RUN mkdir /opt/app/
